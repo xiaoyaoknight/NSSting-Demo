@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65C2D15D732A42CA78B022DB /* Pods_NSSting_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335ED756A712B3538BEAB674 /* Pods_NSSting_DemoUITests.framework */; };
+		9FDE51FC4D47E8603EC5497D /* Pods_NSSting_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE0C578C03EA0B0D13BFB78 /* Pods_NSSting_DemoTests.framework */; };
+		B25B039ED4BA821A519D391E /* Pods_NSSting_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA631A17376593812028F18 /* Pods_NSSting_Demo.framework */; };
 		C750206223F68F03007502A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C750206123F68F03007502A3 /* AppDelegate.m */; };
 		C750206523F68F03007502A3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C750206423F68F03007502A3 /* SceneDelegate.m */; };
 		C750206823F68F03007502A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C750206723F68F03007502A3 /* ViewController.m */; };
@@ -16,6 +19,20 @@
 		C750207323F68F04007502A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C750207223F68F04007502A3 /* main.m */; };
 		C750207D23F68F04007502A3 /* NSSting_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C750207C23F68F04007502A3 /* NSSting_DemoTests.m */; };
 		C750208823F68F04007502A3 /* NSSting_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C750208723F68F04007502A3 /* NSSting_DemoUITests.m */; };
+		C750209723F6A26C007502A3 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C750209623F6A26C007502A3 /* AViewController.m */; };
+		C750209A23F6A278007502A3 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C750209923F6A278007502A3 /* BViewController.m */; };
+		C750209D23F6A27E007502A3 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C750209C23F6A27E007502A3 /* CViewController.m */; };
+		C75020A023F6A285007502A3 /* DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C750209F23F6A285007502A3 /* DViewController.m */; };
+		C75020A323F6A28B007502A3 /* EViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020A223F6A28B007502A3 /* EViewController.m */; };
+		C75020A623F6A290007502A3 /* FViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020A523F6A290007502A3 /* FViewController.m */; };
+		C75020A923F6A296007502A3 /* GViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020A823F6A296007502A3 /* GViewController.m */; };
+		C75020AC23F6A29C007502A3 /* HViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020AB23F6A29C007502A3 /* HViewController.m */; };
+		C75020AF23F6A2A2007502A3 /* IViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020AE23F6A2A2007502A3 /* IViewController.m */; };
+		C75020B223F6A2A9007502A3 /* JViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020B123F6A2A9007502A3 /* JViewController.m */; };
+		C75020B523F6A2AF007502A3 /* KViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020B423F6A2AF007502A3 /* KViewController.m */; };
+		C75020B823F6A3DC007502A3 /* LViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020B723F6A3DC007502A3 /* LViewController.m */; };
+		C75020BB23F6A3E2007502A3 /* MViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020BA23F6A3E2007502A3 /* MViewController.m */; };
+		C75020BE23F6A3E8007502A3 /* NViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020BD23F6A3E8007502A3 /* NViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12972E097DB60A9BAF358161 /* Pods-NSSting-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSSting-DemoTests.release.xcconfig"; path = "Target Support Files/Pods-NSSting-DemoTests/Pods-NSSting-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		335ED756A712B3538BEAB674 /* Pods_NSSting_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSSting_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		373211270B6A9C52DBAC3BC1 /* Pods-NSSting-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSSting-DemoTests.debug.xcconfig"; path = "Target Support Files/Pods-NSSting-DemoTests/Pods-NSSting-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5363889AF59C44907D9B6750 /* Pods-NSSting-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSSting-Demo.release.xcconfig"; path = "Target Support Files/Pods-NSSting-Demo/Pods-NSSting-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		55DE768F0D0D54C930CA9C4F /* Pods-NSSting-DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSSting-DemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-NSSting-DemoUITests/Pods-NSSting-DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C750205D23F68F03007502A3 /* NSSting-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSSting-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C750206023F68F03007502A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C750206123F68F03007502A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +76,38 @@
 		C750208323F68F04007502A3 /* NSSting-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSSting-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C750208723F68F04007502A3 /* NSSting_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSSting_DemoUITests.m; sourceTree = "<group>"; };
 		C750208923F68F04007502A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C750209523F6A26C007502A3 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		C750209623F6A26C007502A3 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		C750209823F6A278007502A3 /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		C750209923F6A278007502A3 /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		C750209B23F6A27E007502A3 /* CViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		C750209C23F6A27E007502A3 /* CViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
+		C750209E23F6A285007502A3 /* DViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DViewController.h; sourceTree = "<group>"; };
+		C750209F23F6A285007502A3 /* DViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DViewController.m; sourceTree = "<group>"; };
+		C75020A123F6A28B007502A3 /* EViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EViewController.h; sourceTree = "<group>"; };
+		C75020A223F6A28B007502A3 /* EViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EViewController.m; sourceTree = "<group>"; };
+		C75020A423F6A290007502A3 /* FViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FViewController.h; sourceTree = "<group>"; };
+		C75020A523F6A290007502A3 /* FViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FViewController.m; sourceTree = "<group>"; };
+		C75020A723F6A296007502A3 /* GViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GViewController.h; sourceTree = "<group>"; };
+		C75020A823F6A296007502A3 /* GViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GViewController.m; sourceTree = "<group>"; };
+		C75020AA23F6A29C007502A3 /* HViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HViewController.h; sourceTree = "<group>"; };
+		C75020AB23F6A29C007502A3 /* HViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HViewController.m; sourceTree = "<group>"; };
+		C75020AD23F6A2A2007502A3 /* IViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IViewController.h; sourceTree = "<group>"; };
+		C75020AE23F6A2A2007502A3 /* IViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IViewController.m; sourceTree = "<group>"; };
+		C75020B023F6A2A9007502A3 /* JViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JViewController.h; sourceTree = "<group>"; };
+		C75020B123F6A2A9007502A3 /* JViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JViewController.m; sourceTree = "<group>"; };
+		C75020B323F6A2AF007502A3 /* KViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KViewController.h; sourceTree = "<group>"; };
+		C75020B423F6A2AF007502A3 /* KViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KViewController.m; sourceTree = "<group>"; };
+		C75020B623F6A3DC007502A3 /* LViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LViewController.h; sourceTree = "<group>"; };
+		C75020B723F6A3DC007502A3 /* LViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LViewController.m; sourceTree = "<group>"; };
+		C75020B923F6A3E2007502A3 /* MViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MViewController.h; sourceTree = "<group>"; };
+		C75020BA23F6A3E2007502A3 /* MViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MViewController.m; sourceTree = "<group>"; };
+		C75020BC23F6A3E8007502A3 /* NViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NViewController.h; sourceTree = "<group>"; };
+		C75020BD23F6A3E8007502A3 /* NViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NViewController.m; sourceTree = "<group>"; };
+		D2C08EAFEAF5D4B3670D346A /* Pods-NSSting-DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSSting-DemoUITests.release.xcconfig"; path = "Target Support Files/Pods-NSSting-DemoUITests/Pods-NSSting-DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DAA631A17376593812028F18 /* Pods_NSSting_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSSting_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E39DC5A1CD41D6ADED98DD14 /* Pods-NSSting-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSSting-Demo.debug.xcconfig"; path = "Target Support Files/Pods-NSSting-Demo/Pods-NSSting-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		EEE0C578C03EA0B0D13BFB78 /* Pods_NSSting_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSSting_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B25B039ED4BA821A519D391E /* Pods_NSSting_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FDE51FC4D47E8603EC5497D /* Pods_NSSting_DemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +131,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65C2D15D732A42CA78B022DB /* Pods_NSSting_DemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CAD9D1EEA89F99028D37265 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E39DC5A1CD41D6ADED98DD14 /* Pods-NSSting-Demo.debug.xcconfig */,
+				5363889AF59C44907D9B6750 /* Pods-NSSting-Demo.release.xcconfig */,
+				373211270B6A9C52DBAC3BC1 /* Pods-NSSting-DemoTests.debug.xcconfig */,
+				12972E097DB60A9BAF358161 /* Pods-NSSting-DemoTests.release.xcconfig */,
+				55DE768F0D0D54C930CA9C4F /* Pods-NSSting-DemoUITests.debug.xcconfig */,
+				D2C08EAFEAF5D4B3670D346A /* Pods-NSSting-DemoUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8FA36096142796F225BE392D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAA631A17376593812028F18 /* Pods_NSSting_Demo.framework */,
+				EEE0C578C03EA0B0D13BFB78 /* Pods_NSSting_DemoTests.framework */,
+				335ED756A712B3538BEAB674 /* Pods_NSSting_DemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C750205423F68F03007502A3 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +168,8 @@
 				C750207B23F68F04007502A3 /* NSSting-DemoTests */,
 				C750208623F68F04007502A3 /* NSSting-DemoUITests */,
 				C750205E23F68F03007502A3 /* Products */,
+				0CAD9D1EEA89F99028D37265 /* Pods */,
+				8FA36096142796F225BE392D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,12 +187,40 @@
 			isa = PBXGroup;
 			children = (
 				C750206023F68F03007502A3 /* AppDelegate.h */,
-				C750206123F68F03007502A3 /* AppDelegate.m */,
 				C750206323F68F03007502A3 /* SceneDelegate.h */,
 				C750206423F68F03007502A3 /* SceneDelegate.m */,
 				C750206623F68F03007502A3 /* ViewController.h */,
 				C750206723F68F03007502A3 /* ViewController.m */,
+				C750209523F6A26C007502A3 /* AViewController.h */,
+				C750209623F6A26C007502A3 /* AViewController.m */,
+				C750209823F6A278007502A3 /* BViewController.h */,
+				C750209923F6A278007502A3 /* BViewController.m */,
+				C750209B23F6A27E007502A3 /* CViewController.h */,
+				C750209C23F6A27E007502A3 /* CViewController.m */,
+				C750209E23F6A285007502A3 /* DViewController.h */,
+				C750209F23F6A285007502A3 /* DViewController.m */,
+				C75020A123F6A28B007502A3 /* EViewController.h */,
+				C75020A223F6A28B007502A3 /* EViewController.m */,
+				C75020A423F6A290007502A3 /* FViewController.h */,
+				C75020A523F6A290007502A3 /* FViewController.m */,
+				C75020A723F6A296007502A3 /* GViewController.h */,
+				C75020A823F6A296007502A3 /* GViewController.m */,
+				C75020AA23F6A29C007502A3 /* HViewController.h */,
+				C75020AB23F6A29C007502A3 /* HViewController.m */,
+				C75020AD23F6A2A2007502A3 /* IViewController.h */,
+				C75020AE23F6A2A2007502A3 /* IViewController.m */,
+				C75020B023F6A2A9007502A3 /* JViewController.h */,
+				C75020B123F6A2A9007502A3 /* JViewController.m */,
+				C75020B323F6A2AF007502A3 /* KViewController.h */,
+				C75020B423F6A2AF007502A3 /* KViewController.m */,
+				C75020B623F6A3DC007502A3 /* LViewController.h */,
+				C75020B723F6A3DC007502A3 /* LViewController.m */,
+				C75020B923F6A3E2007502A3 /* MViewController.h */,
+				C75020BA23F6A3E2007502A3 /* MViewController.m */,
+				C75020BC23F6A3E8007502A3 /* NViewController.h */,
+				C75020BD23F6A3E8007502A3 /* NViewController.m */,
 				C750206923F68F03007502A3 /* Main.storyboard */,
+				C750206123F68F03007502A3 /* AppDelegate.m */,
 				C750206C23F68F04007502A3 /* Assets.xcassets */,
 				C750206E23F68F04007502A3 /* LaunchScreen.storyboard */,
 				C750207123F68F04007502A3 /* Info.plist */,
@@ -144,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C750208C23F68F04007502A3 /* Build configuration list for PBXNativeTarget "NSSting-Demo" */;
 			buildPhases = (
+				6588A89D385441DF9C35F5D6 /* [CP] Check Pods Manifest.lock */,
 				C750205923F68F03007502A3 /* Sources */,
 				C750205A23F68F03007502A3 /* Frameworks */,
 				C750205B23F68F03007502A3 /* Resources */,
@@ -161,6 +272,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C750208F23F68F04007502A3 /* Build configuration list for PBXNativeTarget "NSSting-DemoTests" */;
 			buildPhases = (
+				4000EBC79445A17E6547E264 /* [CP] Check Pods Manifest.lock */,
 				C750207423F68F04007502A3 /* Sources */,
 				C750207523F68F04007502A3 /* Frameworks */,
 				C750207623F68F04007502A3 /* Resources */,
@@ -179,6 +291,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C750209223F68F04007502A3 /* Build configuration list for PBXNativeTarget "NSSting-DemoUITests" */;
 			buildPhases = (
+				2BB52B1ECD96FA52831A3FAE /* [CP] Check Pods Manifest.lock */,
 				C750207F23F68F04007502A3 /* Sources */,
 				C750208023F68F04007502A3 /* Frameworks */,
 				C750208123F68F04007502A3 /* Resources */,
@@ -262,15 +375,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BB52B1ECD96FA52831A3FAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NSSting-DemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4000EBC79445A17E6547E264 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NSSting-DemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6588A89D385441DF9C35F5D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NSSting-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C750205923F68F03007502A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C75020B523F6A2AF007502A3 /* KViewController.m in Sources */,
 				C750206823F68F03007502A3 /* ViewController.m in Sources */,
+				C75020A623F6A290007502A3 /* FViewController.m in Sources */,
+				C750209A23F6A278007502A3 /* BViewController.m in Sources */,
+				C75020AC23F6A29C007502A3 /* HViewController.m in Sources */,
+				C750209723F6A26C007502A3 /* AViewController.m in Sources */,
+				C75020A923F6A296007502A3 /* GViewController.m in Sources */,
+				C75020B823F6A3DC007502A3 /* LViewController.m in Sources */,
 				C750206223F68F03007502A3 /* AppDelegate.m in Sources */,
 				C750207323F68F04007502A3 /* main.m in Sources */,
 				C750206523F68F03007502A3 /* SceneDelegate.m in Sources */,
+				C75020BE23F6A3E8007502A3 /* NViewController.m in Sources */,
+				C750209D23F6A27E007502A3 /* CViewController.m in Sources */,
+				C75020A323F6A28B007502A3 /* EViewController.m in Sources */,
+				C75020B223F6A2A9007502A3 /* JViewController.m in Sources */,
+				C75020A023F6A285007502A3 /* DViewController.m in Sources */,
+				C75020AF23F6A2A2007502A3 /* IViewController.m in Sources */,
+				C75020BB23F6A3E2007502A3 /* MViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +633,7 @@
 		};
 		C750208D23F68F04007502A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E39DC5A1CD41D6ADED98DD14 /* Pods-NSSting-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +650,7 @@
 		};
 		C750208E23F68F04007502A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5363889AF59C44907D9B6750 /* Pods-NSSting-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -469,6 +667,7 @@
 		};
 		C750209023F68F04007502A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 373211270B6A9C52DBAC3BC1 /* Pods-NSSting-DemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +687,7 @@
 		};
 		C750209123F68F04007502A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12972E097DB60A9BAF358161 /* Pods-NSSting-DemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +707,7 @@
 		};
 		C750209323F68F04007502A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55DE768F0D0D54C930CA9C4F /* Pods-NSSting-DemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "NSSting-DemoUITests/Info.plist";
@@ -524,6 +725,7 @@
 		};
 		C750209423F68F04007502A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2C08EAFEAF5D4B3670D346A /* Pods-NSSting-DemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "NSSting-DemoUITests/Info.plist";
