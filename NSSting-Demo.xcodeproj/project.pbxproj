@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C750206223F68F03007502A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C750206123F68F03007502A3 /* AppDelegate.m */; };
+		C750206523F68F03007502A3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C750206423F68F03007502A3 /* SceneDelegate.m */; };
+		C750206823F68F03007502A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C750206723F68F03007502A3 /* ViewController.m */; };
+		C750206B23F68F03007502A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C750206923F68F03007502A3 /* Main.storyboard */; };
+		C750206D23F68F04007502A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C750206C23F68F04007502A3 /* Assets.xcassets */; };
+		C750207023F68F04007502A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C750206E23F68F04007502A3 /* LaunchScreen.storyboard */; };
+		C750207323F68F04007502A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C750207223F68F04007502A3 /* main.m */; };
+		C750207D23F68F04007502A3 /* NSSting_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C750207C23F68F04007502A3 /* NSSting_DemoTests.m */; };
+		C750208823F68F04007502A3 /* NSSting_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C750208723F68F04007502A3 /* NSSting_DemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C750207923F68F04007502A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C750205523F68F03007502A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C750205C23F68F03007502A3;
+			remoteInfo = "NSSting-Demo";
+		};
+		C750208423F68F04007502A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C750205523F68F03007502A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C750205C23F68F03007502A3;
+			remoteInfo = "NSSting-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C750205D23F68F03007502A3 /* NSSting-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSSting-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C750206023F68F03007502A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C750206123F68F03007502A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C750206323F68F03007502A3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C750206423F68F03007502A3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C750206623F68F03007502A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C750206723F68F03007502A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C750206A23F68F03007502A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C750206C23F68F04007502A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C750206F23F68F04007502A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C750207123F68F04007502A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C750207223F68F04007502A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C750207823F68F04007502A3 /* NSSting-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSSting-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C750207C23F68F04007502A3 /* NSSting_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSSting_DemoTests.m; sourceTree = "<group>"; };
+		C750207E23F68F04007502A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C750208323F68F04007502A3 /* NSSting-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSSting-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C750208723F68F04007502A3 /* NSSting_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSSting_DemoUITests.m; sourceTree = "<group>"; };
+		C750208923F68F04007502A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C750205A23F68F03007502A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C750207523F68F04007502A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C750208023F68F04007502A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C750205423F68F03007502A3 = {
+			isa = PBXGroup;
+			children = (
+				C750205F23F68F03007502A3 /* NSSting-Demo */,
+				C750207B23F68F04007502A3 /* NSSting-DemoTests */,
+				C750208623F68F04007502A3 /* NSSting-DemoUITests */,
+				C750205E23F68F03007502A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C750205E23F68F03007502A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C750205D23F68F03007502A3 /* NSSting-Demo.app */,
+				C750207823F68F04007502A3 /* NSSting-DemoTests.xctest */,
+				C750208323F68F04007502A3 /* NSSting-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C750205F23F68F03007502A3 /* NSSting-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				C750206023F68F03007502A3 /* AppDelegate.h */,
+				C750206123F68F03007502A3 /* AppDelegate.m */,
+				C750206323F68F03007502A3 /* SceneDelegate.h */,
+				C750206423F68F03007502A3 /* SceneDelegate.m */,
+				C750206623F68F03007502A3 /* ViewController.h */,
+				C750206723F68F03007502A3 /* ViewController.m */,
+				C750206923F68F03007502A3 /* Main.storyboard */,
+				C750206C23F68F04007502A3 /* Assets.xcassets */,
+				C750206E23F68F04007502A3 /* LaunchScreen.storyboard */,
+				C750207123F68F04007502A3 /* Info.plist */,
+				C750207223F68F04007502A3 /* main.m */,
+			);
+			path = "NSSting-Demo";
+			sourceTree = "<group>";
+		};
+		C750207B23F68F04007502A3 /* NSSting-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C750207C23F68F04007502A3 /* NSSting_DemoTests.m */,
+				C750207E23F68F04007502A3 /* Info.plist */,
+			);
+			path = "NSSting-DemoTests";
+			sourceTree = "<group>";
+		};
+		C750208623F68F04007502A3 /* NSSting-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C750208723F68F04007502A3 /* NSSting_DemoUITests.m */,
+				C750208923F68F04007502A3 /* Info.plist */,
+			);
+			path = "NSSting-DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C750205C23F68F03007502A3 /* NSSting-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C750208C23F68F04007502A3 /* Build configuration list for PBXNativeTarget "NSSting-Demo" */;
+			buildPhases = (
+				C750205923F68F03007502A3 /* Sources */,
+				C750205A23F68F03007502A3 /* Frameworks */,
+				C750205B23F68F03007502A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSSting-Demo";
+			productName = "NSSting-Demo";
+			productReference = C750205D23F68F03007502A3 /* NSSting-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C750207723F68F04007502A3 /* NSSting-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C750208F23F68F04007502A3 /* Build configuration list for PBXNativeTarget "NSSting-DemoTests" */;
+			buildPhases = (
+				C750207423F68F04007502A3 /* Sources */,
+				C750207523F68F04007502A3 /* Frameworks */,
+				C750207623F68F04007502A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C750207A23F68F04007502A3 /* PBXTargetDependency */,
+			);
+			name = "NSSting-DemoTests";
+			productName = "NSSting-DemoTests";
+			productReference = C750207823F68F04007502A3 /* NSSting-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C750208223F68F04007502A3 /* NSSting-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C750209223F68F04007502A3 /* Build configuration list for PBXNativeTarget "NSSting-DemoUITests" */;
+			buildPhases = (
+				C750207F23F68F04007502A3 /* Sources */,
+				C750208023F68F04007502A3 /* Frameworks */,
+				C750208123F68F04007502A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C750208523F68F04007502A3 /* PBXTargetDependency */,
+			);
+			name = "NSSting-DemoUITests";
+			productName = "NSSting-DemoUITests";
+			productReference = C750208323F68F04007502A3 /* NSSting-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C750205523F68F03007502A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = wangzelong;
+				TargetAttributes = {
+					C750205C23F68F03007502A3 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					C750207723F68F04007502A3 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = C750205C23F68F03007502A3;
+					};
+					C750208223F68F04007502A3 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = C750205C23F68F03007502A3;
+					};
+				};
+			};
+			buildConfigurationList = C750205823F68F03007502A3 /* Build configuration list for PBXProject "NSSting-Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C750205423F68F03007502A3;
+			productRefGroup = C750205E23F68F03007502A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C750205C23F68F03007502A3 /* NSSting-Demo */,
+				C750207723F68F04007502A3 /* NSSting-DemoTests */,
+				C750208223F68F04007502A3 /* NSSting-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C750205B23F68F03007502A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C750207023F68F04007502A3 /* LaunchScreen.storyboard in Resources */,
+				C750206D23F68F04007502A3 /* Assets.xcassets in Resources */,
+				C750206B23F68F03007502A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C750207623F68F04007502A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C750208123F68F04007502A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C750205923F68F03007502A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C750206823F68F03007502A3 /* ViewController.m in Sources */,
+				C750206223F68F03007502A3 /* AppDelegate.m in Sources */,
+				C750207323F68F04007502A3 /* main.m in Sources */,
+				C750206523F68F03007502A3 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C750207423F68F04007502A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C750207D23F68F04007502A3 /* NSSting_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C750207F23F68F04007502A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C750208823F68F04007502A3 /* NSSting_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C750207A23F68F04007502A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C750205C23F68F03007502A3 /* NSSting-Demo */;
+			targetProxy = C750207923F68F04007502A3 /* PBXContainerItemProxy */;
+		};
+		C750208523F68F04007502A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C750205C23F68F03007502A3 /* NSSting-Demo */;
+			targetProxy = C750208423F68F04007502A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C750206923F68F03007502A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C750206A23F68F03007502A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C750206E23F68F04007502A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C750206F23F68F04007502A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C750208A23F68F04007502A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C750208B23F68F04007502A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C750208D23F68F04007502A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSSting-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wangzelong.NSSting-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C750208E23F68F04007502A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSSting-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wangzelong.NSSting-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C750209023F68F04007502A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSSting-DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wangzelong.NSSting-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSSting-Demo.app/NSSting-Demo";
+			};
+			name = Debug;
+		};
+		C750209123F68F04007502A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSSting-DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wangzelong.NSSting-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSSting-Demo.app/NSSting-Demo";
+			};
+			name = Release;
+		};
+		C750209323F68F04007502A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSSting-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wangzelong.NSSting-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NSSting-Demo";
+			};
+			name = Debug;
+		};
+		C750209423F68F04007502A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSSting-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wangzelong.NSSting-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NSSting-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C750205823F68F03007502A3 /* Build configuration list for PBXProject "NSSting-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C750208A23F68F04007502A3 /* Debug */,
+				C750208B23F68F04007502A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C750208C23F68F04007502A3 /* Build configuration list for PBXNativeTarget "NSSting-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C750208D23F68F04007502A3 /* Debug */,
+				C750208E23F68F04007502A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C750208F23F68F04007502A3 /* Build configuration list for PBXNativeTarget "NSSting-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C750209023F68F04007502A3 /* Debug */,
+				C750209123F68F04007502A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C750209223F68F04007502A3 /* Build configuration list for PBXNativeTarget "NSSting-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C750209323F68F04007502A3 /* Debug */,
+				C750209423F68F04007502A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C750205523F68F03007502A3 /* Project object */;
+}
