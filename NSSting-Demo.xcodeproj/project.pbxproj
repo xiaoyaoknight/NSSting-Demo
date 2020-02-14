@@ -191,8 +191,7 @@
 				C750206423F68F03007502A3 /* SceneDelegate.m */,
 				C750206623F68F03007502A3 /* ViewController.h */,
 				C750206723F68F03007502A3 /* ViewController.m */,
-				C750209523F6A26C007502A3 /* AViewController.h */,
-				C750209623F6A26C007502A3 /* AViewController.m */,
+				C75020BF23F6A89D007502A3 /* 字符串创建 */,
 				C750209823F6A278007502A3 /* BViewController.h */,
 				C750209923F6A278007502A3 /* BViewController.m */,
 				C750209B23F6A27E007502A3 /* CViewController.h */,
@@ -245,6 +244,15 @@
 				C750208923F68F04007502A3 /* Info.plist */,
 			);
 			path = "NSSting-DemoUITests";
+			sourceTree = "<group>";
+		};
+		C75020BF23F6A89D007502A3 /* 字符串创建 */ = {
+			isa = PBXGroup;
+			children = (
+				C750209523F6A26C007502A3 /* AViewController.h */,
+				C750209623F6A26C007502A3 /* AViewController.m */,
+			);
+			name = "字符串创建";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
