@@ -21,6 +21,11 @@
 #import "LViewController.h"
 #import "MViewController.h"
 #import "NViewController.h"
+#import "OViewController.h"
+#import "PViewController.h"
+#import "QViewController.h"
+#import "RViewController.h"
+#import "SViewController.h"
 
 @interface ViewController ()
 
@@ -58,7 +63,7 @@
  */
 - (IBAction)get:(id)sender {
     CViewController *vc = [[CViewController alloc] init];
-    vc.title = @"字符串获取";
+    vc.title = @"字符串截取";
     [self.navigationController pushViewController:vc animated:YES];
 }
 
@@ -148,7 +153,7 @@
  */
 - (IBAction)caozuo:(id)sender {
     MViewController *vc = [[MViewController alloc] init];
-    vc.title = @"字符串操作";
+    vc.title = @"字符串操作（修剪，替换，折叠，填充）";
     [self.navigationController pushViewController:vc animated:YES];
 }
 
@@ -157,7 +162,44 @@
  */
 - (IBAction)write:(id)sender {
     NViewController *vc = [[NViewController alloc] init];
-    vc.title = @"字符串写入";
+    vc.title = @"字符串读写";
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+/**
+ *  字符串与路径
+ */
+- (IBAction)path:(id)sender {
+    OViewController *vc = [[OViewController alloc] init];
+    vc.title = @"字符串与路径";
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+/**
+ *   NSMutableString的介绍
+ */
+- (IBAction)extendFile:(id)sender {
+    PViewController *vc = [[PViewController alloc] init];
+    vc.title = @" NSMutableString的介绍";
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+/**
+ *  NSRange基本概念
+ */
+- (IBAction)range:(id)sender {
+    
+    QViewController *vc = [[QViewController alloc] init];
+    vc.title = @"NSRange基本概念";
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+/**
+ *  NSRange的创建
+ */
+- (IBAction)range1:(id)sender {
+    RViewController *vc = [[RViewController alloc] init];
+    vc.title = @"NSRange的创建";
     [self.navigationController pushViewController:vc animated:YES];
 }
 

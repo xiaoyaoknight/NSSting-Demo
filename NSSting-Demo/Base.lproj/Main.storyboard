@@ -114,30 +114,42 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33V-kL-h6a">
                                 <rect key="frame" x="179" y="181" width="77" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="字符串写入"/>
+                                <state key="normal" title="字符串读写"/>
                                 <connections>
                                     <action selector="write:" destination="BYZ-38-t0r" eventType="touchUpInside" id="72L-P7-Uvp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="95k-lA-af6">
-                                <rect key="frame" x="194" y="243" width="46" height="30"/>
+                                <rect key="frame" x="171" y="243" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="字符串与路径"/>
+                                <connections>
+                                    <action selector="path:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aYv-nX-eSL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rv0-lO-cdf">
-                                <rect key="frame" x="194" y="302" width="46" height="30"/>
+                                <rect key="frame" x="158" y="302" width="121" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title=" NSMutableString"/>
+                                <connections>
+                                    <action selector="extendFile:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2QF-66-wxY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MIR-jh-9fi">
-                                <rect key="frame" x="194" y="363" width="46" height="30"/>
+                                <rect key="frame" x="155" y="363" width="125" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="NSRange基本概念"/>
+                                <connections>
+                                    <action selector="range:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qXc-Ld-6CH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lr0-tf-H10">
-                                <rect key="frame" x="194" y="426" width="46" height="30"/>
+                                <rect key="frame" x="162" y="426" width="110" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="NSRange的创建"/>
+                                <connections>
+                                    <action selector="range1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dGC-ue-Htj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Izd-wP-Mr7">
                                 <rect key="frame" x="194" y="487" width="46" height="30"/>

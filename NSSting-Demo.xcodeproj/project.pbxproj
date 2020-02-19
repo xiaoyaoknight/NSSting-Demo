@@ -33,6 +33,11 @@
 		C75020B823F6A3DC007502A3 /* LViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020B723F6A3DC007502A3 /* LViewController.m */; };
 		C75020BB23F6A3E2007502A3 /* MViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020BA23F6A3E2007502A3 /* MViewController.m */; };
 		C75020BE23F6A3E8007502A3 /* NViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020BD23F6A3E8007502A3 /* NViewController.m */; };
+		C75020CF23FD04CC007502A3 /* OViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020CE23FD04CC007502A3 /* OViewController.m */; };
+		C75020D223FD04D5007502A3 /* PViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020D123FD04D5007502A3 /* PViewController.m */; };
+		C75020D523FD04DB007502A3 /* QViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020D423FD04DB007502A3 /* QViewController.m */; };
+		C75020DA23FD08ED007502A3 /* RViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020D923FD08ED007502A3 /* RViewController.m */; };
+		C75020DD23FD08F3007502A3 /* SViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020DC23FD08F3007502A3 /* SViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +109,16 @@
 		C75020BA23F6A3E2007502A3 /* MViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MViewController.m; sourceTree = "<group>"; };
 		C75020BC23F6A3E8007502A3 /* NViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NViewController.h; sourceTree = "<group>"; };
 		C75020BD23F6A3E8007502A3 /* NViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NViewController.m; sourceTree = "<group>"; };
+		C75020CD23FD04CC007502A3 /* OViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OViewController.h; sourceTree = "<group>"; };
+		C75020CE23FD04CC007502A3 /* OViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OViewController.m; sourceTree = "<group>"; };
+		C75020D023FD04D5007502A3 /* PViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PViewController.h; sourceTree = "<group>"; };
+		C75020D123FD04D5007502A3 /* PViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PViewController.m; sourceTree = "<group>"; };
+		C75020D323FD04DB007502A3 /* QViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QViewController.h; sourceTree = "<group>"; };
+		C75020D423FD04DB007502A3 /* QViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QViewController.m; sourceTree = "<group>"; };
+		C75020D823FD08ED007502A3 /* RViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RViewController.h; sourceTree = "<group>"; };
+		C75020D923FD08ED007502A3 /* RViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RViewController.m; sourceTree = "<group>"; };
+		C75020DB23FD08F3007502A3 /* SViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SViewController.h; sourceTree = "<group>"; };
+		C75020DC23FD08F3007502A3 /* SViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SViewController.m; sourceTree = "<group>"; };
 		D2C08EAFEAF5D4B3670D346A /* Pods-NSSting-DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSSting-DemoUITests.release.xcconfig"; path = "Target Support Files/Pods-NSSting-DemoUITests/Pods-NSSting-DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DAA631A17376593812028F18 /* Pods_NSSting_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSSting_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E39DC5A1CD41D6ADED98DD14 /* Pods-NSSting-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSSting-Demo.debug.xcconfig"; path = "Target Support Files/Pods-NSSting-Demo/Pods-NSSting-Demo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -187,39 +202,32 @@
 			isa = PBXGroup;
 			children = (
 				C750206023F68F03007502A3 /* AppDelegate.h */,
+				C750206123F68F03007502A3 /* AppDelegate.m */,
 				C750206323F68F03007502A3 /* SceneDelegate.h */,
 				C750206423F68F03007502A3 /* SceneDelegate.m */,
 				C750206623F68F03007502A3 /* ViewController.h */,
 				C750206723F68F03007502A3 /* ViewController.m */,
 				C75020BF23F6A89D007502A3 /* 字符串创建 */,
-				C750209823F6A278007502A3 /* BViewController.h */,
-				C750209923F6A278007502A3 /* BViewController.m */,
-				C750209B23F6A27E007502A3 /* CViewController.h */,
-				C750209C23F6A27E007502A3 /* CViewController.m */,
-				C750209E23F6A285007502A3 /* DViewController.h */,
-				C750209F23F6A285007502A3 /* DViewController.m */,
-				C75020A123F6A28B007502A3 /* EViewController.h */,
-				C75020A223F6A28B007502A3 /* EViewController.m */,
-				C75020A423F6A290007502A3 /* FViewController.h */,
-				C75020A523F6A290007502A3 /* FViewController.m */,
-				C75020A723F6A296007502A3 /* GViewController.h */,
-				C75020A823F6A296007502A3 /* GViewController.m */,
-				C75020AA23F6A29C007502A3 /* HViewController.h */,
-				C75020AB23F6A29C007502A3 /* HViewController.m */,
-				C75020AD23F6A2A2007502A3 /* IViewController.h */,
-				C75020AE23F6A2A2007502A3 /* IViewController.m */,
-				C75020B023F6A2A9007502A3 /* JViewController.h */,
-				C75020B123F6A2A9007502A3 /* JViewController.m */,
-				C75020B323F6A2AF007502A3 /* KViewController.h */,
-				C75020B423F6A2AF007502A3 /* KViewController.m */,
-				C75020B623F6A3DC007502A3 /* LViewController.h */,
-				C75020B723F6A3DC007502A3 /* LViewController.m */,
-				C75020B923F6A3E2007502A3 /* MViewController.h */,
-				C75020BA23F6A3E2007502A3 /* MViewController.m */,
-				C75020BC23F6A3E8007502A3 /* NViewController.h */,
-				C75020BD23F6A3E8007502A3 /* NViewController.m */,
+				C75020C023FB8EBD007502A3 /* 字符串属性 */,
+				C75020C123FB9004007502A3 /* 字符串截取 */,
+				C75020C223FCD398007502A3 /* 字符串比较 */,
+				C75020C323FCD67C007502A3 /* 字符串搜索 */,
+				C75020C423FCDBB0007502A3 /* 字符串拼接 */,
+				C75020C523FCDC1D007502A3 /* 字符串转基本数据 */,
+				C75020C623FCDC5D007502A3 /* 字符串大小转换 */,
+				C75020C723FCDCAF007502A3 /* 字符串分段 */,
+				C75020C823FCE176007502A3 /* 字符串列举 */,
+				C75020C923FCE269007502A3 /* 字符串编码与转换 */,
+				C75020CA23FCE2A0007502A3 /* 字符串分割 */,
+				C75020CB23FCE502007502A3 /* 字符串操作 */,
+				C75020CC23FD01F2007502A3 /* 字符串读写 */,
+				C75020D623FD0582007502A3 /* 字符串与路径 */,
+				C75020D723FD0750007502A3 /*  NSMutableString的介绍 */,
+				C75020DE23FD096F007502A3 /* NSRange基本概念 */,
+				C75020DF23FD0978007502A3 /* NSRange的创建 */,
+				C75020DB23FD08F3007502A3 /* SViewController.h */,
+				C75020DC23FD08F3007502A3 /* SViewController.m */,
 				C750206923F68F03007502A3 /* Main.storyboard */,
-				C750206123F68F03007502A3 /* AppDelegate.m */,
 				C750206C23F68F04007502A3 /* Assets.xcassets */,
 				C750206E23F68F04007502A3 /* LaunchScreen.storyboard */,
 				C750207123F68F04007502A3 /* Info.plist */,
@@ -253,6 +261,159 @@
 				C750209623F6A26C007502A3 /* AViewController.m */,
 			);
 			name = "字符串创建";
+			sourceTree = "<group>";
+		};
+		C75020C023FB8EBD007502A3 /* 字符串属性 */ = {
+			isa = PBXGroup;
+			children = (
+				C750209823F6A278007502A3 /* BViewController.h */,
+				C750209923F6A278007502A3 /* BViewController.m */,
+			);
+			path = "字符串属性";
+			sourceTree = "<group>";
+		};
+		C75020C123FB9004007502A3 /* 字符串截取 */ = {
+			isa = PBXGroup;
+			children = (
+				C750209B23F6A27E007502A3 /* CViewController.h */,
+				C750209C23F6A27E007502A3 /* CViewController.m */,
+			);
+			path = "字符串截取";
+			sourceTree = "<group>";
+		};
+		C75020C223FCD398007502A3 /* 字符串比较 */ = {
+			isa = PBXGroup;
+			children = (
+				C750209E23F6A285007502A3 /* DViewController.h */,
+				C750209F23F6A285007502A3 /* DViewController.m */,
+			);
+			path = "字符串比较";
+			sourceTree = "<group>";
+		};
+		C75020C323FCD67C007502A3 /* 字符串搜索 */ = {
+			isa = PBXGroup;
+			children = (
+				C75020A123F6A28B007502A3 /* EViewController.h */,
+				C75020A223F6A28B007502A3 /* EViewController.m */,
+			);
+			path = "字符串搜索";
+			sourceTree = "<group>";
+		};
+		C75020C423FCDBB0007502A3 /* 字符串拼接 */ = {
+			isa = PBXGroup;
+			children = (
+				C75020A423F6A290007502A3 /* FViewController.h */,
+				C75020A523F6A290007502A3 /* FViewController.m */,
+			);
+			path = "字符串拼接";
+			sourceTree = "<group>";
+		};
+		C75020C523FCDC1D007502A3 /* 字符串转基本数据 */ = {
+			isa = PBXGroup;
+			children = (
+				C75020A723F6A296007502A3 /* GViewController.h */,
+				C75020A823F6A296007502A3 /* GViewController.m */,
+			);
+			path = "字符串转基本数据";
+			sourceTree = "<group>";
+		};
+		C75020C623FCDC5D007502A3 /* 字符串大小转换 */ = {
+			isa = PBXGroup;
+			children = (
+				C75020AA23F6A29C007502A3 /* HViewController.h */,
+				C75020AB23F6A29C007502A3 /* HViewController.m */,
+			);
+			path = "字符串大小转换";
+			sourceTree = "<group>";
+		};
+		C75020C723FCDCAF007502A3 /* 字符串分段 */ = {
+			isa = PBXGroup;
+			children = (
+				C75020AD23F6A2A2007502A3 /* IViewController.h */,
+				C75020AE23F6A2A2007502A3 /* IViewController.m */,
+			);
+			path = "字符串分段";
+			sourceTree = "<group>";
+		};
+		C75020C823FCE176007502A3 /* 字符串列举 */ = {
+			isa = PBXGroup;
+			children = (
+				C75020B023F6A2A9007502A3 /* JViewController.h */,
+				C75020B123F6A2A9007502A3 /* JViewController.m */,
+			);
+			path = "字符串列举";
+			sourceTree = "<group>";
+		};
+		C75020C923FCE269007502A3 /* 字符串编码与转换 */ = {
+			isa = PBXGroup;
+			children = (
+				C75020B323F6A2AF007502A3 /* KViewController.h */,
+				C75020B423F6A2AF007502A3 /* KViewController.m */,
+			);
+			path = "字符串编码与转换";
+			sourceTree = "<group>";
+		};
+		C75020CA23FCE2A0007502A3 /* 字符串分割 */ = {
+			isa = PBXGroup;
+			children = (
+				C75020B623F6A3DC007502A3 /* LViewController.h */,
+				C75020B723F6A3DC007502A3 /* LViewController.m */,
+			);
+			path = "字符串分割";
+			sourceTree = "<group>";
+		};
+		C75020CB23FCE502007502A3 /* 字符串操作 */ = {
+			isa = PBXGroup;
+			children = (
+				C75020B923F6A3E2007502A3 /* MViewController.h */,
+				C75020BA23F6A3E2007502A3 /* MViewController.m */,
+			);
+			path = "字符串操作";
+			sourceTree = "<group>";
+		};
+		C75020CC23FD01F2007502A3 /* 字符串读写 */ = {
+			isa = PBXGroup;
+			children = (
+				C75020BC23F6A3E8007502A3 /* NViewController.h */,
+				C75020BD23F6A3E8007502A3 /* NViewController.m */,
+			);
+			path = "字符串读写";
+			sourceTree = "<group>";
+		};
+		C75020D623FD0582007502A3 /* 字符串与路径 */ = {
+			isa = PBXGroup;
+			children = (
+				C75020CD23FD04CC007502A3 /* OViewController.h */,
+				C75020CE23FD04CC007502A3 /* OViewController.m */,
+			);
+			path = "字符串与路径";
+			sourceTree = "<group>";
+		};
+		C75020D723FD0750007502A3 /*  NSMutableString的介绍 */ = {
+			isa = PBXGroup;
+			children = (
+				C75020D023FD04D5007502A3 /* PViewController.h */,
+				C75020D123FD04D5007502A3 /* PViewController.m */,
+			);
+			path = " NSMutableString的介绍";
+			sourceTree = "<group>";
+		};
+		C75020DE23FD096F007502A3 /* NSRange基本概念 */ = {
+			isa = PBXGroup;
+			children = (
+				C75020D323FD04DB007502A3 /* QViewController.h */,
+				C75020D423FD04DB007502A3 /* QViewController.m */,
+			);
+			path = "NSRange基本概念";
+			sourceTree = "<group>";
+		};
+		C75020DF23FD0978007502A3 /* NSRange的创建 */ = {
+			isa = PBXGroup;
+			children = (
+				C75020D823FD08ED007502A3 /* RViewController.h */,
+				C75020D923FD08ED007502A3 /* RViewController.m */,
+			);
+			path = "NSRange的创建";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -459,6 +620,8 @@
 			files = (
 				C75020B523F6A2AF007502A3 /* KViewController.m in Sources */,
 				C750206823F68F03007502A3 /* ViewController.m in Sources */,
+				C75020D523FD04DB007502A3 /* QViewController.m in Sources */,
+				C75020CF23FD04CC007502A3 /* OViewController.m in Sources */,
 				C75020A623F6A290007502A3 /* FViewController.m in Sources */,
 				C750209A23F6A278007502A3 /* BViewController.m in Sources */,
 				C75020AC23F6A29C007502A3 /* HViewController.m in Sources */,
@@ -469,12 +632,15 @@
 				C750207323F68F04007502A3 /* main.m in Sources */,
 				C750206523F68F03007502A3 /* SceneDelegate.m in Sources */,
 				C75020BE23F6A3E8007502A3 /* NViewController.m in Sources */,
+				C75020DD23FD08F3007502A3 /* SViewController.m in Sources */,
 				C750209D23F6A27E007502A3 /* CViewController.m in Sources */,
 				C75020A323F6A28B007502A3 /* EViewController.m in Sources */,
 				C75020B223F6A2A9007502A3 /* JViewController.m in Sources */,
 				C75020A023F6A285007502A3 /* DViewController.m in Sources */,
 				C75020AF23F6A2A2007502A3 /* IViewController.m in Sources */,
 				C75020BB23F6A3E2007502A3 /* MViewController.m in Sources */,
+				C75020D223FD04D5007502A3 /* PViewController.m in Sources */,
+				C75020DA23FD08ED007502A3 /* RViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

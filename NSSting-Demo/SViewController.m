@@ -1,23 +1,22 @@
 //
-//  FViewController.m
+//  SViewController.m
 //  NSSting-Demo
 //
-//  Created by wangzelong on 2020/2/14.
+//  Created by wangzelong on 2020/2/19.
 //  Copyright © 2020 wangzelong. All rights reserved.
 //
 
-#import "FViewController.h"
+#import "SViewController.h"
 
-@interface FViewController ()
+@interface SViewController ()
 
 @end
 
-@implementation FViewController
+@implementation SViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 /*
