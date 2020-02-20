@@ -27,10 +27,12 @@
     
     NSString *str = @"你是虎";
     NSString *str1 = @"我是龙";
-    NSString *formateStr = str.add(str1);
+    NSString *str2 = @"他是虫";
+    NSString *formateStr = str.add(str1).add(str2);
     NSMAttrString *attributeStr = formateStr.attributedString;
     attributeStr.subString(str).font([UIFont systemFontOfSize:12]).color([UIColor redColor])
-    .subString(str1).font([UIFont boldSystemFontOfSize:14]).color([UIColor blueColor]);
+    .subString(str1).font([UIFont boldSystemFontOfSize:14]).color([UIColor blueColor])
+    .subString(str2).font([UIFont boldSystemFontOfSize:18]).color([UIColor greenColor]);
     self.titleLabel.attributedText = attributeStr;
 }
 
