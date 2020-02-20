@@ -1,5 +1,5 @@
 //
-//  SViewController.h
+//  TViewController.h
 //  NSSting-Demo
 //
 //  Created by wangzelong on 2020/2/19.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SViewController : UIViewController
+@interface TViewController : UIViewController
 
 @end
 

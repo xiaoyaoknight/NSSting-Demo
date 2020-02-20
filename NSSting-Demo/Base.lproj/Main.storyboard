@@ -152,9 +152,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Izd-wP-Mr7">
-                                <rect key="frame" x="194" y="487" width="46" height="30"/>
+                                <rect key="frame" x="171" y="487" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="点语法！！！"/>
+                                <connections>
+                                    <action selector="dianyufa:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zyR-rs-yiJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQK-cZ-4qa">
                                 <rect key="frame" x="194" y="564" width="46" height="30"/>

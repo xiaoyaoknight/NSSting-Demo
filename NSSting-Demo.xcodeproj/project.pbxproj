@@ -10,6 +10,7 @@
 		65C2D15D732A42CA78B022DB /* Pods_NSSting_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335ED756A712B3538BEAB674 /* Pods_NSSting_DemoUITests.framework */; };
 		9FDE51FC4D47E8603EC5497D /* Pods_NSSting_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE0C578C03EA0B0D13BFB78 /* Pods_NSSting_DemoTests.framework */; };
 		B25B039ED4BA821A519D391E /* Pods_NSSting_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA631A17376593812028F18 /* Pods_NSSting_Demo.framework */; };
+		C71A864123FE216C00CBE5C5 /* NSObject+CEHook.m in Sources */ = {isa = PBXBuildFile; fileRef = C71A864023FE216C00CBE5C5 /* NSObject+CEHook.m */; };
 		C750206223F68F03007502A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C750206123F68F03007502A3 /* AppDelegate.m */; };
 		C750206523F68F03007502A3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C750206423F68F03007502A3 /* SceneDelegate.m */; };
 		C750206823F68F03007502A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C750206723F68F03007502A3 /* ViewController.m */; };
@@ -37,7 +38,11 @@
 		C75020D223FD04D5007502A3 /* PViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020D123FD04D5007502A3 /* PViewController.m */; };
 		C75020D523FD04DB007502A3 /* QViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020D423FD04DB007502A3 /* QViewController.m */; };
 		C75020DA23FD08ED007502A3 /* RViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020D923FD08ED007502A3 /* RViewController.m */; };
-		C75020DD23FD08F3007502A3 /* SViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020DC23FD08F3007502A3 /* SViewController.m */; };
+		C75020E923FD1097007502A3 /* NSMutableAttributedString+CESafeExt.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020E323FD1097007502A3 /* NSMutableAttributedString+CESafeExt.m */; };
+		C75020EA23FD1097007502A3 /* NSString+CEAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020E523FD1097007502A3 /* NSString+CEAttributedString.m */; };
+		C75020EB23FD1097007502A3 /* NSMutableAttributedString+CEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020E823FD1097007502A3 /* NSMutableAttributedString+CEAdditions.m */; };
+		C75020EE23FD10D5007502A3 /* NSString+CEAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020EC23FD10D5007502A3 /* NSString+CEAdditions.m */; };
+		C75020F423FD1163007502A3 /* TViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75020F323FD1163007502A3 /* TViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +68,8 @@
 		373211270B6A9C52DBAC3BC1 /* Pods-NSSting-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSSting-DemoTests.debug.xcconfig"; path = "Target Support Files/Pods-NSSting-DemoTests/Pods-NSSting-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5363889AF59C44907D9B6750 /* Pods-NSSting-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSSting-Demo.release.xcconfig"; path = "Target Support Files/Pods-NSSting-Demo/Pods-NSSting-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		55DE768F0D0D54C930CA9C4F /* Pods-NSSting-DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSSting-DemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-NSSting-DemoUITests/Pods-NSSting-DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C71A863F23FE216C00CBE5C5 /* NSObject+CEHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CEHook.h"; sourceTree = "<group>"; };
+		C71A864023FE216C00CBE5C5 /* NSObject+CEHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CEHook.m"; sourceTree = "<group>"; };
 		C750205D23F68F03007502A3 /* NSSting-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSSting-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C750206023F68F03007502A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C750206123F68F03007502A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -117,8 +124,16 @@
 		C75020D423FD04DB007502A3 /* QViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QViewController.m; sourceTree = "<group>"; };
 		C75020D823FD08ED007502A3 /* RViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RViewController.h; sourceTree = "<group>"; };
 		C75020D923FD08ED007502A3 /* RViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RViewController.m; sourceTree = "<group>"; };
-		C75020DB23FD08F3007502A3 /* SViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SViewController.h; sourceTree = "<group>"; };
-		C75020DC23FD08F3007502A3 /* SViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SViewController.m; sourceTree = "<group>"; };
+		C75020E323FD1097007502A3 /* NSMutableAttributedString+CESafeExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+CESafeExt.m"; sourceTree = "<group>"; };
+		C75020E423FD1097007502A3 /* NSMutableAttributedString+CEAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+CEAdditions.h"; sourceTree = "<group>"; };
+		C75020E523FD1097007502A3 /* NSString+CEAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CEAttributedString.m"; sourceTree = "<group>"; };
+		C75020E623FD1097007502A3 /* NSMutableAttributedString+CESafeExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+CESafeExt.h"; sourceTree = "<group>"; };
+		C75020E723FD1097007502A3 /* NSString+CEAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CEAttributedString.h"; sourceTree = "<group>"; };
+		C75020E823FD1097007502A3 /* NSMutableAttributedString+CEAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+CEAdditions.m"; sourceTree = "<group>"; };
+		C75020EC23FD10D5007502A3 /* NSString+CEAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CEAdditions.m"; sourceTree = "<group>"; };
+		C75020ED23FD10D5007502A3 /* NSString+CEAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CEAdditions.h"; sourceTree = "<group>"; };
+		C75020F223FD1163007502A3 /* TViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TViewController.h; sourceTree = "<group>"; };
+		C75020F323FD1163007502A3 /* TViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TViewController.m; sourceTree = "<group>"; };
 		D2C08EAFEAF5D4B3670D346A /* Pods-NSSting-DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSSting-DemoUITests.release.xcconfig"; path = "Target Support Files/Pods-NSSting-DemoUITests/Pods-NSSting-DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DAA631A17376593812028F18 /* Pods_NSSting_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSSting_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E39DC5A1CD41D6ADED98DD14 /* Pods-NSSting-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSSting-Demo.debug.xcconfig"; path = "Target Support Files/Pods-NSSting-Demo/Pods-NSSting-Demo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -176,6 +191,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C71A863E23FE216C00CBE5C5 /* CEHook */ = {
+			isa = PBXGroup;
+			children = (
+				C71A863F23FE216C00CBE5C5 /* NSObject+CEHook.h */,
+				C71A864023FE216C00CBE5C5 /* NSObject+CEHook.m */,
+			);
+			path = CEHook;
+			sourceTree = "<group>";
+		};
 		C750205423F68F03007502A3 = {
 			isa = PBXGroup;
 			children = (
@@ -225,8 +249,7 @@
 				C75020D723FD0750007502A3 /*  NSMutableString的介绍 */,
 				C75020DE23FD096F007502A3 /* NSRange基本概念 */,
 				C75020DF23FD0978007502A3 /* NSRange的创建 */,
-				C75020DB23FD08F3007502A3 /* SViewController.h */,
-				C75020DC23FD08F3007502A3 /* SViewController.m */,
+				C75020E023FD105D007502A3 /* 字符串点语法使用 */,
 				C750206923F68F03007502A3 /* Main.storyboard */,
 				C750206C23F68F04007502A3 /* Assets.xcassets */,
 				C750206E23F68F04007502A3 /* LaunchScreen.storyboard */,
@@ -414,6 +437,40 @@
 				C75020D923FD08ED007502A3 /* RViewController.m */,
 			);
 			path = "NSRange的创建";
+			sourceTree = "<group>";
+		};
+		C75020E023FD105D007502A3 /* 字符串点语法使用 */ = {
+			isa = PBXGroup;
+			children = (
+				C71A863E23FE216C00CBE5C5 /* CEHook */,
+				C75020E123FD1077007502A3 /* Category */,
+				C75020F223FD1163007502A3 /* TViewController.h */,
+				C75020F323FD1163007502A3 /* TViewController.m */,
+			);
+			path = "字符串点语法使用";
+			sourceTree = "<group>";
+		};
+		C75020E123FD1077007502A3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C75020ED23FD10D5007502A3 /* NSString+CEAdditions.h */,
+				C75020EC23FD10D5007502A3 /* NSString+CEAdditions.m */,
+				C75020E223FD1097007502A3 /* NSMutableAttributedString */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		C75020E223FD1097007502A3 /* NSMutableAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				C75020E623FD1097007502A3 /* NSMutableAttributedString+CESafeExt.h */,
+				C75020E323FD1097007502A3 /* NSMutableAttributedString+CESafeExt.m */,
+				C75020E423FD1097007502A3 /* NSMutableAttributedString+CEAdditions.h */,
+				C75020E823FD1097007502A3 /* NSMutableAttributedString+CEAdditions.m */,
+				C75020E723FD1097007502A3 /* NSString+CEAttributedString.h */,
+				C75020E523FD1097007502A3 /* NSString+CEAttributedString.m */,
+			);
+			path = NSMutableAttributedString;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -618,11 +675,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C71A864123FE216C00CBE5C5 /* NSObject+CEHook.m in Sources */,
 				C75020B523F6A2AF007502A3 /* KViewController.m in Sources */,
 				C750206823F68F03007502A3 /* ViewController.m in Sources */,
+				C75020EB23FD1097007502A3 /* NSMutableAttributedString+CEAdditions.m in Sources */,
+				C75020EA23FD1097007502A3 /* NSString+CEAttributedString.m in Sources */,
 				C75020D523FD04DB007502A3 /* QViewController.m in Sources */,
 				C75020CF23FD04CC007502A3 /* OViewController.m in Sources */,
 				C75020A623F6A290007502A3 /* FViewController.m in Sources */,
+				C75020E923FD1097007502A3 /* NSMutableAttributedString+CESafeExt.m in Sources */,
 				C750209A23F6A278007502A3 /* BViewController.m in Sources */,
 				C75020AC23F6A29C007502A3 /* HViewController.m in Sources */,
 				C750209723F6A26C007502A3 /* AViewController.m in Sources */,
@@ -632,9 +693,10 @@
 				C750207323F68F04007502A3 /* main.m in Sources */,
 				C750206523F68F03007502A3 /* SceneDelegate.m in Sources */,
 				C75020BE23F6A3E8007502A3 /* NViewController.m in Sources */,
-				C75020DD23FD08F3007502A3 /* SViewController.m in Sources */,
+				C75020F423FD1163007502A3 /* TViewController.m in Sources */,
 				C750209D23F6A27E007502A3 /* CViewController.m in Sources */,
 				C75020A323F6A28B007502A3 /* EViewController.m in Sources */,
+				C75020EE23FD10D5007502A3 /* NSString+CEAdditions.m in Sources */,
 				C75020B223F6A2A9007502A3 /* JViewController.m in Sources */,
 				C75020A023F6A285007502A3 /* DViewController.m in Sources */,
 				C75020AF23F6A2A2007502A3 /* IViewController.m in Sources */,

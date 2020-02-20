@@ -25,7 +25,7 @@
 #import "PViewController.h"
 #import "QViewController.h"
 #import "RViewController.h"
-#import "SViewController.h"
+#import "TViewController.h"
 
 @interface ViewController ()
 
@@ -200,6 +200,16 @@
 - (IBAction)range1:(id)sender {
     RViewController *vc = [[RViewController alloc] init];
     vc.title = @"NSRange的创建";
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+/**
+ *  字符串点语法使用
+ */
+- (IBAction)dianyufa:(id)sender {
+    
+    TViewController *vc = [[TViewController alloc] init];
+    vc.title = @"字符串点语法使用";
     [self.navigationController pushViewController:vc animated:YES];
 }
 
